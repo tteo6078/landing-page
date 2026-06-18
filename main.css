@@ -135,3 +135,29 @@
     font-size: 16px;
     color: #1f2937;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.quote-section .content-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quote-section p {
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-section h2 {
+    font-weight: 900;
+    font-size: 24px;
+    color: #1f2937;
+    align-self: flex-end;
+
+}
