@@ -166,7 +166,7 @@
     background-color: #f9faf8;
     display: flex;
     flex-direction: column;
-    padding: 50px 0;
+    padding: 80px;
 }
 
 .sign-up-section .content-wrapper {
@@ -183,18 +183,17 @@
     flex-direction: column;
 }
 
-.sign-up-section .content-wrapper h2 {
+.sign-up-section h2 {
     font-size: 24px;
     font-weight: 600;
 }
 
-.sign-up-section .content-wrapper p {
+.sign-up-section p {
     font-size: 18px;
     font-weight: 300;
 }
 
-.sign-up-section .content-wrapper .sign-up-btn {
-    margin-top: 20px;
+.sign-up-section .sign-up-btn {
     border: 2px solid #f9faf8;
     background-color: transparent;
     color: #f9faf8;
@@ -204,4 +203,15 @@
     font-size: 18px;
     cursor: pointer;
     flex-shrink: 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 50px 0;
+}
+
+.footer .content-wrapper {
+    flex-direction: column;
+    align-items: center;
 }
